@@ -1,3 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    color: white;
+    font-family: Norse B;
+    z-index: 2;
+}
+
 body {
+    background-color: lightgray;
+}
+
+.create-account {
+    background-color: #596D48;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.background {
+    width: 47%;
+    z-index: 1;
+}
+
+.odin-lined {
+    z-index: 2;
+    width: 10%;
+}
+
+.logo-section {
+    display: flex;
     background-color: black;
 }
