@@ -1,90 +1,112 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
-    font-family: norse-bold;
-    src: url(Norse-Bold.otf);
+  font-family: norse-bold;
+  src: url(Norse-Bold.otf);
 }
 
 .parent-container {
-    display: flex;
+  display: flex;
 }
 
 .left-side {
-    background-image: url(background.jpg);
-    background-size: 618px;
-    width: 60vh;
-    height: 100vh;
+  background-image: url(background.jpg);
+  background-size: 618px;
+  width: 60vh;
+  height: 100vh;
 }
 
 .left-side h1 {
-    color: white;
+  color: white;
 }
 
 .dark-shade {
-    margin-top: 200px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    justify-content: center;
+  margin-top: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
 }
 
 .logo-text {
-    font-family: norse-bold;
-    font-size: 6em;
-    font-weight: lighter;
-    line-height: 130px;
+  font-family: norse-bold;
+  font-size: 6em;
+  font-weight: lighter;
+  line-height: 130px;
 }
 
 .odin-lined {
-    width: auto;
-    height: auto;
-    max-width: 130px;
-    max-height: 130px;
+  width: auto;
+  height: auto;
+  max-width: 130px;
+  max-height: 130px;
 }
 
 .credit {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 0.9rem;
-    position: relative;
-    bottom: -535px;
-    width: auto;
-    text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: -535px;
+  width: auto;
+  text-align: center;
 }
 
-.credit a{
-    font-size: 1em;
-
-    
+.credit a {
+  font-size: 1em;
 }
 
 .credit a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .credit a:hover {
-    color: white;
+  color: white;
 }
 
 .right-side {
-    background-color: rgb(245, 245, 245);
-    width: 160vh;
+  background-color: rgb(245, 245, 245);
+  width: 160vh;
 }
 
 .right-side p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 .form-container {
-    background-color: white;
-    box-shadow: 2px;
+  background-color: white;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+  min-height: 33vh;
+  padding-left: 50px;
+}
+
+.create-account {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  background-color: #596d48;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.top-right {
+    min-height: 33vh;
+    padding-left: 50px;
+}
+
+.bottom-right {
+    min-height: 33vh;
+    padding-left: 50px;
 }
